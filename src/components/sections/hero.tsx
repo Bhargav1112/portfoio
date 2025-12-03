@@ -241,7 +241,7 @@ export function HeroSection() {
               <div className="relative w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-background shadow-2xl">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20" />
                 <Image
-                  src="/profile.svg"
+                  src="/profile-pic.png"
                   alt="Bhargav Bhakhar"
                   fill
                   className="object-cover"

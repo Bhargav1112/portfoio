@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 import { Code2, Heart, Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com/bhargavbhakhar", label: "GitHub" },
+  { icon: Github, href: "https://github.com/Bhargav1112", label: "GitHub" },
   {
     icon: Linkedin,
-    href: "https://linkedin.com/in/bhargavbhakhar",
+    href: "https://www.linkedin.com/in/bhargav-bhakhar",
     label: "LinkedIn",
   },
-  { icon: Mail, href: "mailto:bhargavbhakhar@email.com", label: "Email" },
-  { icon: Phone, href: "tel:+919876543210", label: "Phone" },
+  { icon: Mail, href: "mailto:bhargavbhakhar1112@gmail.com", label: "Email" },
+  { icon: Phone, href: "tel:+919727247609", label: "Phone" },
 ];
 
 const navLinks = [

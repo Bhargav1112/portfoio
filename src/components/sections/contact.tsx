@@ -23,14 +23,14 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "bhargavbhakhar@email.com",
-    href: "mailto:bhargavbhakhar@email.com",
+    value: "bhargavbhakhar1112@ gmail.com",
+    href: "mailto:bhargavbhakhar1112@gmail.com",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+91 98765 43210",
-    href: "tel:+919876543210",
+    value: "+91 97272 47609",
+    href: "tel:+919727247609",
   },
   {
     icon: MapPin,
@@ -41,7 +41,7 @@ const contactInfo = [
   {
     icon: Clock,
     label: "Availability",
-    value: "Mon - Fri, 9 AM - 6 PM IST",
+    value: "Mon - Fri, 9 AM - 6 PM IST (Flexible)",
     href: "#",
   },
 ];
@@ -50,14 +50,14 @@ const socialLinks = [
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com/bhargavbhakhar",
-    username: "@bhargavbhakhar",
+    href: "https://github.com/Bhargav1112",
+    username: "@Bhargav1112",
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    href: "https://linkedin.com/in/bhargavbhakhar",
-    username: "/in/bhargavbhakhar",
+    href: "https://www.linkedin.com/in/bhargav-bhakhar",
+    username: "/in/bhargav-bhakhar",
   },
 ];
 
@@ -164,7 +164,7 @@ export function ContactSection() {
                         href={info.href}
                         className="flex items-start gap-4 group"
                       >
-                        <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
+                        <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center shrink-0 group-hover:bg-primary/20 transition-colors">
                           <info.icon className="w-5 h-5 text-primary" />
                         </div>
                         <div>
@@ -214,7 +214,7 @@ export function ContactSection() {
 
             {/* Availability Card */}
             <motion.div variants={itemVariants}>
-              <Card className="bg-gradient-to-br from-primary/10 to-accent/10 border-primary/20">
+              <Card className="bg-linear-to-br from-primary/10 to-accent/10 border-primary/20">
                 <CardContent className="p-6">
                   <div className="flex items-center gap-2 mb-2">
                     <div className="w-3 h-3 rounded-full bg-green-500 animate-pulse" />
@@ -325,7 +325,7 @@ export function ContactSection() {
                     <Button
                       type="submit"
                       size="lg"
-                      className="w-full rounded-xl bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity"
+                      className="w-full rounded-xl bg-linear-to-r from-primary to-accent hover:opacity-90 transition-opacity"
                       disabled={isSubmitting}
                     >
                       {isSubmitting ? (
